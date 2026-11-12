@@ -25,8 +25,8 @@ DataInsight Solutions souhaite moderniser la présentation de ses analyses et pr
 
 1. Cloner le dépôt :
 ```powershell
-git clone https://github.com/TON_PSEUDO/NOM_DU_DEPOT.git
-cd NOM_DU_DEPOT
+git clone https://github.com/Nith-Citreth/app_securise.git
+cd app_securise
 ```
 
 2. Créer l'environnement virtuel :
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ## Lancer l'application
 
 ```powershell
-streamlit run app.py
+streamlit run app_securise.py
 ```
 
 L'application s'ouvre dans le navigateur à l'adresse `http://localhost:8501`.
@@ -57,7 +57,7 @@ Pour l'arrêter : `Ctrl+C` dans le terminal.
 
 ```
 .
-├── app.py              # Fichier principal de l'application
+├── app_securise.py     # Fichier principal de l'application
 ├── requirements.txt    # Liste des librairies à installer
 ├── .gitignore          # Fichiers exclus de Git (dont .venv)
 ├── utilisateurs.csv    # Utilisateurs autorisés (menu sécurisé)
